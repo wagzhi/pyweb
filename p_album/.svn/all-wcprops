@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/pyweb/!svn/ver/13/1/p_album
+END
+sync.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/pyweb/!svn/ver/10/1/p_album/sync.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/pyweb/!svn/ver/10/1/p_album/views.py
+END
+SyncTests.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/pyweb/!svn/ver/10/1/p_album/SyncTests.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/pyweb/!svn/ver/6/1/p_album/__init__.py
+END
+sample_rss.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/pyweb/!svn/ver/10/1/p_album/sample_rss.xml
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/pyweb/!svn/ver/10/1/p_album/tests.py
+END
+initial_data.json
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/pyweb/!svn/ver/9/1/p_album/initial_data.json
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/pyweb/!svn/ver/10/1/p_album/models.py
+END

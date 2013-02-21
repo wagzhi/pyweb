@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<title>我的订阅</title>
+		<script src="{{ STATIC_URL }}js/jquery-1.8.3.js"></script>
+		<script>
+			$('document').ready(function(){
+				$('#t_huatan').css('background-color','grey');
+			});
+		</script>
+	</head>
+	<body>
+	<h>我的花坛 {{ STATIC_URL }}{{STATIC_URL}}</h>
+	<table border="1" id='t_huatan' style="background-color: white">
+		<tbody>
+			<tr>
+				<td>名称</td><td>介绍</td><td></td><td></td>
+			</tr>
+			{% for album in albums %}
+			<tr>
+				<td><a href="{{album.url}}" target="_blank">{{album.name}}</a></td>
+				<td>{{album.desc}}</td>
+				<td><a href="{{album.rss}}" target="_blank">rss</a></td>
+				<td><a href="./{{album.id}}.html">查看</a></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	</body>
+</html>

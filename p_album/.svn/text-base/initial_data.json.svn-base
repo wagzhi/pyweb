@@ -1,0 +1,24 @@
+[
+  {
+    "model": "p_album.Album",
+     "pk":1,
+     "fields":{
+        "name":"美女模特",
+        "url":"http://www.19lou.com/r/mvmt.html",
+        "rss":"http://www.19lou.com/r/rss/682585627.html",
+        "desc":"每天给你一位最靓最真实的美女模特",
+        "pub_date":"2007-10-13 12:34:34" 
+     }   
+   },
+   {
+    "model": "p_album.Album",
+     "pk":2,
+     "fields":{
+     	"name":"每日热点新闻",
+        "url":"http://www.19lou.com/r/mrrdxw.html",
+        "rss":"http://www.19lou.com/r/rss/627657751.html",
+        "desc":"为你播报每天最最热门的网络新闻",
+        "pub_date":"2007-10-13 12:34:34"
+     }   
+   }
+]

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/pyweb/!svn/ver/15/1/pyweb
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/pyweb/!svn/ver/6/1/pyweb/wsgi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/pyweb/!svn/ver/6/1/pyweb/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/pyweb/!svn/ver/15/1/pyweb/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/pyweb/!svn/ver/15/1/pyweb/urls.py
+END

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<title>花坛 - {{album.name}}</title>
+	</head>
+	<body>
+	<h><a href="/">花坛</a> > {{album.name}}</h>
+	<p> {{album.desc}}  更新时间：{{date}} </p>
+	<table border="1">
+		<tbody>
+			<tr>
+				<td>name</td>
+				<td>pubDate</td>
+			</tr>
+			{% for doc in docs %}
+			<tr>
+				<td><a href='{{doc.url}}' target='_blank'>{{doc.name}}</a></td><td>{{ doc.pub_date|date:"Y-m-d H:m:s" }}</td>				
+			</tr>
+			<tr>
+				<td colspan="2">{{doc.digest}}</td>
+			</tr>
+			{% if doc.num_photo > 0%}
+			<tr>
+				<td colspan="2">
+				 {% if doc.photo1 %}
+				 	<img src='{{doc.photo1}}'/>
+				 {% endif %}
+				 {% if doc.photo2 %}
+				 	<img src='{{doc.photo2}}'/>
+				 {% endif %}
+				 {% if doc.photo3 %}
+				 	<img src='{{doc.photo3}}'/>
+				 {% endif %}
+				</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>
+	</table>
+	</body>
+</html>
